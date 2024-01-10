@@ -7,7 +7,7 @@ import { Icon } from "@iconify/react";
 const Hero = () => {
   const onButtonClick = () => {
     const pdfUrl =
-      "https://drive.google.com/file/d/1uUjwqjOsaT5jiGv2TR0lle7Gze6AQzYL/view?usp=drive_link";
+      "https://drive.google.com/file/d/15ZpBcMeRo5PaZ-VjqzMSA4bzJsUdT-nx/view?usp=drive_link";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "document.pdf"; // specify the filename
